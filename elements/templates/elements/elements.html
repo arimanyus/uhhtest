@@ -1,0 +1,10 @@
+{% extends 'base_generic.html' %} {% block content %}
+<h1>Website Elements</h1>
+<ul>
+  {% for element in elements %}
+  <li>{{ element.name }} - {{ element.content }}</li>
+  {% empty %}
+  <li>No elements have been created yet.</li>
+  {% endfor %}
+</ul>
+{% endblock %}

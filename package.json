@@ -1,0 +1,17 @@
+{
+  "name": "whateverthisnewprojectmaybe",
+  "version": "1.0.0",
+  "description": "This is a template to get you started with Python on Replit. It's ready to go so you can just hit run and start coding!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:css": "tailwindcss build static/css/styles.css -o static/css/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.23"
+  }
+}

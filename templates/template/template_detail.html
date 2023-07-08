@@ -1,0 +1,5 @@
+{% extends 'base.html' %} {% block content %}
+<h1>{{ template.name }}</h1>
+<img src="{{ template.preview_image.url }}" alt="{{ template.name }} preview" />
+<p>{{ template.description }}</p>
+{% endblock %}

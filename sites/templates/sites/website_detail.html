@@ -1,0 +1,8 @@
+{% extends "base.html" %} {% block content %}
+<h2>Website Details</h2>
+<p>Template: {{ website.template_name }}</p>
+<p>Description: {{ website.description }}</p>
+<p>Industry: {{ website.industry }}</p>
+<p>Logo: {{ website.logo.url }}</p>
+<p>Color Scheme: {{ website.color_scheme }}</p>
+{% endblock %}
